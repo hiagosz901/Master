@@ -1,0 +1,89 @@
+﻿#servicos { padding: 6rem 0; }
+#servicos .container > .section-tag,
+#servicos .container > h2,
+#servicos .container > .section-intro { padding-inline: 0; }
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+}
+
+.service-card {
+  background: #ffffff;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  transition: background var(--transition);
+  display: flex; flex-direction: column;
+}
+.service-card:hover { background: #f8fafc; }
+
+.service-card-img {
+  width:100%; height: 180px;
+  object-fit: cover;
+  display: block;
+  filter: brightness(.75) saturate(.9);
+  transition: filter var(--transition), transform .4s ease;
+}
+.service-card:hover .service-card-img {
+  filter: brightness(.9) saturate(1.1);
+  transform: scale(1.03);
+}
+.service-card-img-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.service-card-img-wrap::after {
+  content:'';
+  position:absolute; bottom:0; left:0; right:0; height:60px;
+  background: linear-gradient(to top, #ffffff, transparent);
+  pointer-events:none;
+  transition: background var(--transition);
+}
+.service-card:hover .service-card-img-wrap::after {
+  background: linear-gradient(to top, #f8fafc, transparent);
+}
+
+.service-card-body {
+  padding: 1.6rem 1.8rem 2rem;
+  flex:1; display:flex; flex-direction:column;
+}
+.service-card-title {
+  font-family:'Montserrat',sans-serif;
+  font-weight:700; font-size:1.05rem;
+  color:var(--white); margin-bottom:.5rem;
+  line-height:1.25;
+}
+.service-card-desc {
+  font-size:.86rem; color:var(--muted);
+  font-weight:300; line-height:1.7;
+  flex:1; margin-bottom:1.3rem;
+}
+.service-card-tag {
+  position:absolute; top:12px; right:12px;
+  background: rgba(255,255,255,.92);
+  border: 1px solid var(--border-g);
+  border-radius:100px;
+  padding:4px 12px;
+  font-size:.68rem; font-weight:600;
+  color:var(--green); letter-spacing:.05em; text-transform:uppercase;
+}
+/* top accent line per card */
+.service-card::before {
+  content:''; position:absolute; top:0; left:0; right:0; height:2px;
+  background: linear-gradient(90deg, var(--green), var(--cyan));
+  transform: scaleX(0); transform-origin:left;
+  transition: transform .35s ease;
+}
+.service-card:hover::before { transform: scaleX(1); }
+
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   METHODS
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+

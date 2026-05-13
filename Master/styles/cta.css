@@ -1,0 +1,20 @@
+﻿.cta-section {
+  padding: 4.5rem 0;
+  background:
+    radial-gradient(circle at 85% 20%, rgba(46,219,57,.2), transparent 32%),
+    linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 58%, var(--blue) 100%);
+  border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+}
+.cta-inner {
+  display:flex; align-items:center; justify-content:space-between;
+  gap:2rem; flex-wrap:wrap;
+}
+.cta-text h2 { margin-bottom:.5rem; color: #ffffff; }
+.cta-text p { color:rgb(255, 255, 255); font-size:.95rem; font-weight:300; }
+
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   CONTACT
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+

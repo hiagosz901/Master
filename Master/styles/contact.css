@@ -1,0 +1,57 @@
+﻿#contato { padding: 6rem 0; }
+
+.contact-grid {
+  display:grid; grid-template-columns:1fr 1fr;
+  gap:4rem; align-items:start;
+}
+.contact-info { display:flex; flex-direction:column; gap:1.2rem; }
+.contact-item {
+  display:flex; align-items:center; gap:1rem;
+  padding:1.2rem 1.4rem;
+  background: var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius-md);
+  transition: border-color var(--transition);
+}
+.contact-item:hover { border-color:rgba(44,200,74,.35); }
+.contact-icon {
+  width:42px; height:42px; flex-shrink:0;
+  background: rgba(44,200,74,.1);
+  border:1px solid rgba(44,200,74,.2);
+  border-radius:10px;
+  display:flex; align-items:center; justify-content:center;
+  font-size:1.1rem;
+}
+.contact-label { font-size:.72rem; color:var(--muted); margin-bottom:2px; letter-spacing:.03em; }
+.contact-value { font-size:.95rem; font-weight:500; color:var(--white); }
+
+form { display:flex; flex-direction:column; gap:.9rem; }
+.form-row { display:grid; grid-template-columns:1fr 1fr; gap:.9rem; }
+.form-group { display:flex; flex-direction:column; }
+label { font-size:.75rem; color:var(--muted); margin-bottom:5px; letter-spacing:.03em; }
+input, textarea {
+  width:100%;
+  background: #f8fafc;
+  border:1px solid rgba(0,100,160,0.15);
+  border-radius:var(--radius-sm);
+  padding:.72rem 1rem;
+  color:#0f2a46;
+  font-family:'Poppins',sans-serif;
+  font-size:.9rem; outline:none;
+  transition: border-color var(--transition);
+}
+input:focus, textarea:focus { border-color:rgba(15, 112, 232, 0.9); }
+input::placeholder, textarea::placeholder { color:rgba(18, 96, 230, 0.866); }
+textarea { resize:vertical; min-height:110px; }
+
+#form-success {
+  display:none; color:var(--green);
+  font-size:.85rem; margin-top:.4rem;
+}
+#form-success.is-error { color:#d92d20; }
+
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   FOOTER
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+

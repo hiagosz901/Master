@@ -1,0 +1,42 @@
+<svg width="960" height="680" viewBox="0 0 960 680" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Imagem explicativa de um hidrômetro residencial</title>
+  <desc id="desc">Diagrama mostrando visor, ponteiro, números, lacre e conexões de entrada e saída de água.</desc>
+  <rect width="960" height="680" rx="34" fill="#F4FAFF"/>
+  <circle cx="480" cy="325" r="230" fill="#D9ECFF"/>
+  <circle cx="480" cy="325" r="178" fill="#FFFFFF" stroke="#0C56EA" stroke-width="16"/>
+  <circle cx="480" cy="325" r="138" fill="#F8FAFC" stroke="#9BC8F8" stroke-width="6"/>
+  <rect x="335" y="68" width="290" height="96" rx="20" fill="#0C56EA"/>
+  <text x="480" y="108" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="22" font-weight="700">CONHEÇA SEU</text>
+  <text x="480" y="137" text-anchor="middle" fill="#2CD416" font-family="Arial, sans-serif" font-size="28" font-weight="800">HIDRÔMETRO</text>
+  <rect x="365" y="256" width="230" height="74" rx="14" fill="#0F2A46"/>
+  <rect x="383" y="274" width="194" height="38" rx="7" fill="#E8F4FF"/>
+  <text x="480" y="303" text-anchor="middle" fill="#0F2A46" font-family="Arial, sans-serif" font-size="30" font-weight="700">000123</text>
+  <text x="480" y="352" text-anchor="middle" fill="#5A7290" font-family="Arial, sans-serif" font-size="18" font-weight="700">leitura em m³</text>
+  <circle cx="480" cy="410" r="56" fill="#FFFFFF" stroke="#2CD416" stroke-width="8"/>
+  <path d="M480 410L518 382" stroke="#0C56EA" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="480" cy="410" r="8" fill="#0C56EA"/>
+  <path d="M230 325H90" stroke="#0C56EA" stroke-width="28" stroke-linecap="round"/>
+  <path d="M730 325H870" stroke="#2CD416" stroke-width="28" stroke-linecap="round"/>
+  <rect x="160" y="286" width="95" height="78" rx="12" fill="#FFFFFF" stroke="#0C56EA" stroke-width="8"/>
+  <rect x="705" y="286" width="95" height="78" rx="12" fill="#FFFFFF" stroke="#2CD416" stroke-width="8"/>
+  <path d="M324 193C284 163 221 166 180 206" stroke="#0C56EA" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="174" cy="212" r="9" fill="#0C56EA"/>
+  <rect x="44" y="166" width="208" height="72" rx="16" fill="#FFFFFF" stroke="#D8E8F8"/>
+  <text x="148" y="196" text-anchor="middle" fill="#0C56EA" font-family="Arial, sans-serif" font-size="17" font-weight="700">Visor numérico</text>
+  <text x="148" y="219" text-anchor="middle" fill="#5A7290" font-family="Arial, sans-serif" font-size="14">mostra o consumo</text>
+  <path d="M610 425C665 451 700 506 702 563" stroke="#2CD416" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="702" cy="570" r="9" fill="#2CD416"/>
+  <rect x="610" y="574" width="290" height="72" rx="16" fill="#FFFFFF" stroke="#D8E8F8"/>
+  <text x="755" y="604" text-anchor="middle" fill="#0C56EA" font-family="Arial, sans-serif" font-size="17" font-weight="700">Ponteiro girando</text>
+  <text x="755" y="627" text-anchor="middle" fill="#5A7290" font-family="Arial, sans-serif" font-size="14">pode indicar passagem de água</text>
+  <path d="M374 532C330 566 268 570 220 540" stroke="#0C56EA" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="212" cy="535" r="9" fill="#0C56EA"/>
+  <rect x="48" y="492" width="260" height="72" rx="16" fill="#FFFFFF" stroke="#D8E8F8"/>
+  <text x="178" y="522" text-anchor="middle" fill="#0C56EA" font-family="Arial, sans-serif" font-size="17" font-weight="700">Teste simples</text>
+  <text x="178" y="545" text-anchor="middle" fill="#5A7290" font-family="Arial, sans-serif" font-size="14">feche torneiras e observe</text>
+  <path d="M641 203C692 170 765 172 811 210" stroke="#2CD416" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="820" cy="217" r="9" fill="#2CD416"/>
+  <rect x="704" y="166" width="212" height="72" rx="16" fill="#FFFFFF" stroke="#D8E8F8"/>
+  <text x="810" y="196" text-anchor="middle" fill="#0C56EA" font-family="Arial, sans-serif" font-size="17" font-weight="700">Lacre e conexões</text>
+  <text x="810" y="219" text-anchor="middle" fill="#5A7290" font-family="Arial, sans-serif" font-size="14">não devem ser violados</text>
+</svg>

@@ -1,0 +1,48 @@
+﻿#metodos { padding: 6rem 0; }
+
+.methods-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+}
+.method-card {
+  background: #ffffff;
+  padding: 2.2rem;
+  position:relative; overflow:hidden;
+  transition: background var(--transition);
+}
+.method-card:hover { background: #f8fafc; }
+.method-card::before {
+  content:''; position:absolute; top:0; left:0; right:0; height:2px;
+  background: linear-gradient(90deg, var(--cyan), var(--blue-bright));
+  transform: scaleX(0); transform-origin:left;
+  transition: transform .35s ease;
+}
+.method-card:hover::before { transform:scaleX(1); }
+.method-icon {
+  width:48px; height:48px;
+  background: var(--cyan-soft);
+  border: 1px solid rgba(0,212,245,.2);
+  border-radius:12px;
+  display:flex; align-items:center; justify-content:center;
+  font-size:1.3rem; margin-bottom:1.3rem;
+}
+.method-title {
+  font-family:'Montserrat',sans-serif;
+  font-weight:700; font-size:.98rem;
+  margin-bottom:.5rem; color:var(--white);
+}
+.method-desc {
+  font-size:.86rem; color:var(--muted);
+  font-weight:300; line-height:1.7;
+}
+
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   BENEFITS
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+

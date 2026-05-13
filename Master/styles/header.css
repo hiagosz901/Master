@@ -1,0 +1,51 @@
+﻿body > nav {
+  position: fixed; top:0; left:0; right:0; z-index:200;
+  display: flex; align-items:center; justify-content:space-between;
+  padding: 1rem 5%;
+  background: rgba(255,255,255,.96);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(7,94,234,0.12);
+  box-shadow: 0 2px 20px rgba(6,23,45,0.08);
+  transition: padding var(--transition);
+}
+body > nav.scrolled { padding: .65rem 5%; }
+
+/* nav dentro do footer â€” resetar heranÃ§a */
+footer nav {
+  position: static;
+  background: none;
+  backdrop-filter: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-logo img { height: 52px; width: auto; display: block; }
+
+body > nav .nav-links { display:flex; gap:2rem; list-style:none; margin-left: auto; padding-left: 3rem; }
+body > nav .nav-links a {
+  color: var(--navy-mid); text-decoration:none;
+  font-size: .9rem; font-weight:500;
+  transition: color var(--transition);
+}
+body > nav .nav-links a:hover,
+body > nav .nav-links a.active { color: var(--white); }
+
+.nav-cta {
+  background: linear-gradient(135deg, var(--green), var(--green-dark)) !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  padding: .5rem 1.3rem !important;
+  border-radius: 100px !important;
+  display:flex; align-items:center; gap:7px;
+  transition: all var(--transition) !important;
+}
+.nav-cta:hover { transform:translateY(-1px); box-shadow: 0 12px 28px rgba(46,219,57,.28); }
+.nav-cta svg { width:16px; height:16px; }
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   HERO
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+

@@ -1,0 +1,15 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@import url('./styles/base.css');
+@import url('./styles/header.css');
+@import url('./styles/hero.css');
+@import url('./styles/buttons.css');
+@import url('./styles/services.css');
+@import url('./styles/methods.css');
+@import url('./styles/benefits.css');
+@import url('./styles/cta.css');
+@import url('./styles/hidrometro.css');
+@import url('./styles/service-page.css');
+@import url('./styles/contact.css');
+@import url('./styles/footer.css');
+@import url('./styles/responsive.css');

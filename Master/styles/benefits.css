@@ -1,0 +1,85 @@
+﻿#beneficios { padding: 6rem 0; }
+
+.benefits-wrapper {
+  display:flex;
+  flex-direction:column;
+  gap:2rem;
+}
+.benefits-content {
+  width:100%;
+}
+.benefits-heading-row {
+  display:grid;
+  grid-template-columns:minmax(0, 1fr) minmax(320px, 420px);
+  gap:3rem;
+  align-items:center;
+}
+.benefits-inline-mascot {
+  width:min(420px, 100%);
+  height:auto;
+  justify-self:center;
+  display:block;
+  filter: drop-shadow(0 24px 36px rgba(6,23,45,.20));
+}
+.benefit-list { display:flex; flex-direction:column; }
+.benefit-item {
+  display:flex; align-items:flex-start; gap:1rem;
+  padding:1.3rem 0;
+  border-bottom: 1px solid var(--border);
+  transition: padding-left var(--transition);
+  cursor:default;
+}
+.benefit-item:first-child { border-top:1px solid var(--border); }
+.benefit-item:not(:has(.benefit-text strong)) { display:none; }
+.benefit-item:hover { padding-left:8px; }
+.benefit-check {
+  width:24px; height:24px; flex-shrink:0;
+  background: rgba(44,200,74,.12);
+  border: 1px solid rgba(44,200,74,.3);
+  border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  margin-top:2px;
+}
+.benefit-check svg { width:12px; height:12px; }
+.benefit-text strong { display:block; font-family:'Montserrat',sans-serif; font-weight:600; font-size:.95rem; color:var(--white); margin-bottom:2px; }
+.benefit-text span { font-size:.84rem; color:var(--muted); font-weight:300; }
+
+.benefits-side {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+  gap:1.2rem;
+  padding-top:.5rem;
+}
+.benefits-extra-reasons {
+  width:100%;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:1.2rem;
+}
+.benefits-extra-item {
+  border-top:1px solid var(--border);
+  padding-top:1rem;
+}
+.benefits-extra-item strong {
+  display:block;
+  font-family:'Montserrat',sans-serif;
+  font-size:1rem;
+  font-weight:700;
+  color:var(--white);
+  margin-bottom:.35rem;
+}
+.benefits-extra-item span {
+  display:block;
+  font-size:.86rem;
+  color:var(--muted);
+  font-weight:300;
+  line-height:1.7;
+}
+
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   CTA STRIP
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+

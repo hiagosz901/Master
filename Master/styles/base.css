@@ -1,0 +1,87 @@
+﻿/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   HIDRO MASTER â€” CAÃ‡A VAZAMENTOS
+   style.css
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+
+/* â”€â”€ RESET & TOKENS â”€â”€ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --navy:        #06172d;
+  --navy-mid:    #0b2f5d;
+  --blue:        #075eea;
+  --blue-bright: #1395ff;
+  --green:       #2edb39;
+  --green-dark:  #17b927;
+  --cyan:        #02a9e8;
+  --cyan-soft:   rgba(19, 149, 255, 0.14);
+  --white:       #075eea;
+  --off-white:   #f5fbff;
+  --muted:       #4f6f96;
+  --surface:     rgba(0,0,0,0.03);
+  --surface-2:   rgba(0,0,0,0.055);
+  --border:      rgba(7,94,234,0.13);
+  --border-g:    rgba(46,219,57,0.26);
+  --radius-sm:   8px;
+  --radius-md:   14px;
+  --radius-lg:   20px;
+  --radius-xl:   28px;
+  --shadow-glow: 0 0 32px rgba(0,150,180,0.12);
+  --transition:  .25s ease;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+  color: var(--white);
+  overflow-x: hidden;
+  line-height: 1.65;
+}
+
+/* â”€â”€ UTILITY â”€â”€ */
+.container { width: min(1200px, 92%); margin-inline: auto; }
+.section-tag {
+  display: inline-block;
+  font-size: .72rem; font-weight: 600;
+  letter-spacing: .1em; text-transform: uppercase;
+  color: var(--green);
+  margin-bottom: .9rem;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(1.9rem, 3.5vw, 2.9rem);
+  font-weight: 800; letter-spacing: -.03em;
+  line-height: 1.1; margin-bottom: .9rem;
+}
+.section-intro {
+  font-size: 1rem; color: var(--muted);
+  font-weight: 300; line-height: 1.8;
+  max-width: 580px; margin-bottom: 3rem;
+}
+.divider {
+  width: 100%; height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(0,100,160,0.12), transparent);
+}
+
+/* â”€â”€ ANIMATIONS â”€â”€ */
+@keyframes fadeUp   { from { opacity:0; transform:translateY(24px); } to { opacity:1; transform:translateY(0); } }
+@keyframes fadeIn   { from { opacity:0; } to { opacity:1; } }
+@keyframes pulse    { 0%,100% { box-shadow:0 0 6px var(--cyan); transform:scale(1); } 50% { box-shadow:0 0 18px var(--cyan); transform:scale(1.35); } }
+@keyframes glow     { 0%,100% { opacity:.5; } 50% { opacity:1; } }
+@keyframes float    { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-12px); } }
+@keyframes fillBar  { from { width:0; } }
+@keyframes rotateIn { from { opacity:0; transform:rotate(-6deg) scale(.92); } to { opacity:1; transform:rotate(0) scale(1); } }
+
+.reveal {
+  opacity:0; transform:translateY(28px);
+  transition: opacity .7s ease, transform .7s ease;
+}
+.reveal.visible { opacity:1; transform:translateY(0); }
+
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   NAV
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+
